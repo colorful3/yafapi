@@ -1,0 +1,153 @@
+[
+    {
+        "name": "nette/mail",
+        "version": "v2.4.4",
+        "version_normalized": "2.4.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nette/mail.git",
+            "reference": "fc651794923e0f44d6bd89afca4a16873c8f269c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/nette/mail/fc651794923e0f44d6bd89afca4a16873c8f269c.zip",
+            "reference": "fc651794923e0f44d6bd89afca4a16873c8f269c",
+            "shasum": ""
+        },
+        "require": {
+            "ext-iconv": "*",
+            "nette/utils": "^2.4 || ~3.0.0",
+            "php": ">=5.6.0"
+        },
+        "conflict": {
+            "nette/nette": "<2.2"
+        },
+        "require-dev": {
+            "nette/di": "^2.4 || ~3.0.0",
+            "nette/tester": "^2.0",
+            "tracy/tracy": "^2.4"
+        },
+        "suggest": {
+            "ext-fileinfo": "to detect type of attached files"
+        },
+        "time": "2017-12-05T11:26:49+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause",
+            "GPL-2.0",
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "David Grudl",
+                "homepage": "https://davidgrudl.com"
+            },
+            {
+                "name": "Nette Community",
+                "homepage": "https://nette.org/contributors"
+            }
+        ],
+        "description": "📧 Nette Mail: handy email creation and transfer library for PHP with both text and MIME-compliant support.",
+        "homepage": "https://nette.org",
+        "keywords": [
+            "mail",
+            "mailer",
+            "mime",
+            "nette",
+            "smtp"
+        ]
+    },
+    {
+        "name": "nette/utils",
+        "version": "v2.4.9",
+        "version_normalized": "2.4.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nette/utils.git",
+            "reference": "1e08eb4c9d26ae5aedced8260e8b4ed951ee4aa6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/nette/utils/1e08eb4c9d26ae5aedced8260e8b4ed951ee4aa6.zip",
+            "reference": "1e08eb4c9d26ae5aedced8260e8b4ed951ee4aa6",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "conflict": {
+            "nette/nette": "<2.2"
+        },
+        "require-dev": {
+            "nette/tester": "~2.0",
+            "tracy/tracy": "^2.3"
+        },
+        "suggest": {
+            "ext-gd": "to use Image",
+            "ext-iconv": "to use Strings::webalize() and toAscii()",
+            "ext-intl": "for script transliteration in Strings::webalize() and toAscii()",
+            "ext-json": "to use Nette\\Utils\\Json",
+            "ext-mbstring": "to use Strings::lower() etc...",
+            "ext-xml": "to use Strings::length() etc. when mbstring is not available"
+        },
+        "time": "2018-02-06T15:40:36+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause",
+            "GPL-2.0",
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "David Grudl",
+                "homepage": "https://davidgrudl.com"
+            },
+            {
+                "name": "Nette Community",
+                "homepage": "https://nette.org/contributors"
+            }
+        ],
+        "description": "🛠 Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
+        "homepage": "https://nette.org",
+        "keywords": [
+            "array",
+            "core",
+            "datetime",
+            "images",
+            "json",
+            "nette",
+            "paginator",
+            "password",
+            "slugify",
+            "string",
+            "unicode",
+            "utf-8",
+            "utility",
+            "validation"
+        ]
+    }
+]
