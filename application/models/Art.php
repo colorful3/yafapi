@@ -10,7 +10,7 @@ Class ArtModel {
     private $_db = null;
 
     public function __construct() {
-        $this->_db = new PDO("mysql:host=127.0.0.1;dbname=yafAPI;", "root", "");
+        $this->_db = new PDO("mysql:host=127.0.0.1;port=8889;dbname=yafAPI;", "root", "root");
         // 不设置下边这行的话，PDO会在拼接SQL的时候，把int0转换为string 0
         $this->_db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     }

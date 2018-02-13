@@ -19,13 +19,13 @@ define('APPID','AcmF1iyKJm8K6Cpp92ZVS8');
 define('MASTERSECRET','1ZNnFHzqGOAyHRUUNCRK26');
 define('HOST','http://sdk.open.api.igexin.com/apiex.htm');
 
-class PushModel() {
+class PushModel {
     public $errno = 0;
-    public $errno = "";
-    private $db = null;
+    public $errmsg = "";
+    private $_db = null;
 
     public function single($cid, $msg="Colorful的Push") {
-        $
+        
     }
 }
 
